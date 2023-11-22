@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Note/嵌套类/嵌套类.md",
+                "file": "Note/MySQL.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note/嵌套类/嵌套类.md",
+                "file": "Note/MySQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note/嵌套类/嵌套类.md",
+                "file": "Note/MySQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note/嵌套类/嵌套类.md"
+                "file": "Note/MySQL.md"
               }
             }
           }
@@ -149,6 +149,8 @@
   },
   "active": "6c9fdfb740913cd7",
   "lastOpenFiles": [
+    "Note/嵌套类/嵌套类.md",
+    "Note/MySQL.md",
     "Java-learn/src/nested_class/inner_class/anonymous_class/AnonymousClass.java~",
     "Java-learn/src/nested_class/inner_class/anonymous_class/AnonymousClass.java",
     "Java-learn/src/nested_class/inner_class/anonymous_class/Student.java~",
@@ -159,8 +161,6 @@
     "Java-learn/src/nested_class/inner_class/anonymous_class/Calculate.java",
     "Java-learn/src/nested_class/inner_class/anonymous_class",
     "Java-learn/src/nested_class/inner_class/LocalClass.java~",
-    "Java-learn/src/nested_class/inner_class/LocalClass.java",
-    "Note/嵌套类/嵌套类.md",
     "Note/异常.md"
   ]
 }
