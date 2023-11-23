@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8ac67e26315545e8",
+        "id": "15c17d9cc262e4ec",
         "type": "tabs",
         "children": [
           {
-            "id": "6c9fdfb740913cd7",
+            "id": "905e71a17b3034df",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -147,10 +147,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "6c9fdfb740913cd7",
+  "active": "905e71a17b3034df",
   "lastOpenFiles": [
-    "Note/嵌套类/嵌套类.md",
+    "Note/异常.md",
     "Note/MySQL.md",
+    "Note/嵌套类/嵌套类.md",
     "Java-learn/src/nested_class/inner_class/anonymous_class/AnonymousClass.java~",
     "Java-learn/src/nested_class/inner_class/anonymous_class/AnonymousClass.java",
     "Java-learn/src/nested_class/inner_class/anonymous_class/Student.java~",
@@ -160,7 +161,6 @@
     "Java-learn/src/nested_class/inner_class/anonymous_class/Calculate.java~",
     "Java-learn/src/nested_class/inner_class/anonymous_class/Calculate.java",
     "Java-learn/src/nested_class/inner_class/anonymous_class",
-    "Java-learn/src/nested_class/inner_class/LocalClass.java~",
-    "Note/异常.md"
+    "Java-learn/src/nested_class/inner_class/LocalClass.java~"
   ]
 }

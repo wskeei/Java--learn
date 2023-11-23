@@ -1,5 +1,68 @@
 # 表操作
 
+## 创建表：
+`CREATE TABLE`
+
+```
+create table 表名(列名 数据类型[列级约束条件], 
+			列名 数据类型[列级约束条件], 
+			... 
+			[,表级约束条件])
+```
+### 数据类型
+字符串存储：
+
+- char(n)可以存储任意字符串，但是是固定长度为n，如果插入的长度小于定义长度时，则用空格填充。
+- varchar(n)也可以存储任意数量字符串，长度不固定，但不能超过n，不会用空格填充。
+
+存储数字：
+
+- smallint用于存储小的整数，范围在 (-32768，32767)
+- int用于存储一般的整数，范围在 (-2147483648，2147483647)
+- bigint用于存储大型整数，范围在 (-9,223,372,036,854,775,808，9,223,372,036,854,775,807)
+- float用于存储单精度小数
+- double用于存储双精度的小数
+
+存储时间：
+
+- date存储日期
+- time存储时间
+- year存储年份
+- datetime用于混合存储日期+时间
+### 列级约束条件
+
+列级约束有六种：主键Primary key、外键foreign key 、唯一 unique、检查 check （MySQL不支持）、默认default 、非空/空值 not null/ null
+
+### 表级约束条件
+
+表级约束有四种：主键、外键、唯一、检查
+
+## 删除表使用
+`DROP TABLE`
+
+```
+DROP TABLE students
+```
+
+## 修改表：
+
+给`students`表新增一列`birth`
+
+```
+ALTER TABLE students ADD COLUMN birth VARCHAR(10) NOT NULL;
+```
+
+修改`birth`列，把列名改为`birthday`，类型改为`VARCHAR(20)`：
+
+```
+ALTER TABLE students CHANGE COLUMN birth birthday VARCHAR(20) NOT NULL;
+```
+
+删除列
+
+```
+ALTER TABLE students DROP COLUMN birthday;
+```
 
 ### 外键
 ```SQL
@@ -86,11 +149,139 @@ ORDER BY score DESC;
 
 ## 分页查询
 
+从结果集中“截取”出第M~N条记录：
+`LIMIT <N-M> OFFSET <M>`
+
+结果集分页，每页3条记录。获取第1页的记录：
+```
+SELECT id, name, gender, score
+FROM students
+ORDER BY score DESC
+LIMIT 3 OFFSET 0;
+```
+`LIMIT 3 OFFSET 0`表示，对结果集从0号记录开始，最多取3条
+
+
+查询第2页
+```
+SELECT id, name, gender, score
+FROM students
+ORDER BY score DESC
+LIMIT 3 OFFSET 3;
+
+```
+
+* `pageSize`  每页需要显示的结果数量
+* `pageIndex` 当前页的索引
+- `LIMIT`总是设定为`pageSize`；
+- `OFFSET`计算公式为`pageSize * (pageIndex - 1)`。
+
 ## 聚合查询
+查询`students`表一共有多少条记录
+```
+SELECT COUNT(*) FROM students;
+# 聚合的计算结果虽然是一个数字，但查询的结果仍然是一个二维表，只是这个二维表只有一行一列，并且列名是`COUNT(*)`
+```
+
+使用聚合查询并设置结果集的列名为num:
+```
+SELECT COUNT(*) num FROM students;
+
+```
+
+可以使用WHERE：
+```
+SELECT COUNT(*) boys FROM students WHERE gender = 'M';
+```
+
+
+* SUM: 计算某一列的合计值，该列必须为数值类型
+*  AVG: 计算某一列的平均值，该列必须为数值类型
+* MAX: 计算某一列的最大值
+* MIN: 计算某一列的最小值
+
+统计男生的平均成绩:
+```
+SELECT AVG(score) average FROM students WHERE gender = 'M';
+
+```
+
+### 分组聚合
+```
+SELECT COUNT(*) num FROM students GROUP BY class_id;
+
+```
+执行该`SELECT`语句时，会把`class_id`相同的列先分组，再分别计算，因此，得到了多个结果。
+
+把`class_id`列也放入结果集中：
+```
+SELECT class_id, COUNT(*) num FROM students GROUP BY class_id;
+```
 
 ## 多表查询
+从多张表同时查询数据
+
+
+```
+SELECT * FROM students, classes;
+```
+得到两个表的笛卡尔乘积
+
+给两个表各自的`id`和`name`列起别名：
+```
+SELECT
+    students.id sid,
+    students.name sname,
+    students.gender,
+    students.score,
+    classes.id cid,
+    classes.name cname
+FROM students, classes;
+
+```
+
+给表设置别名：
+```
+SELECT
+    s.id sid,
+    s.name,
+    s.gender,
+    s.score,
+    c.id cid,
+    c.name cname
+FROM students s, classes c;
+```
+
+同时可以添加`WHERE`条件
 
 ## 连接查询
+在确定一个主表作为结果集的基础上，把其他表的行有选择性地“连接”在主表结果集上。
+
+### 内连接：
+选出所有学生，同时返回班级名称。班级名称在 classes 表中
+```
+SELECT s.id, s.name, s.class_id, c.name class_name, s.gender, s.score
+FROM students s
+INNER JOIN classes c # 需要连接的表
+ON s.class_id = c.id; # 确定连接条件
+
+```
+  
+INNER JOIN只返回同时存在于两张表的行数据
+### 外连接
+```
+SELECT s.id, s.name, s.class_id, c.name class_name, s.gender, s.score
+FROM students s
+RIGHT OUTER JOIN classes c # 右表查询
+ON s.class_id = c.id;
+
+```
+`RIGHT OUTER JOIN` 返回右表都存在的行  classse为右表
+
+同时存在：
+`LEFT OUTER JOIN`：选出左表存在的记录
+`FULL OUTER JOIN`：选出左右表都存在的记录
+
 
 # 修改数据
 
@@ -157,4 +348,45 @@ DELETE FROM students WHERE id=1;
 ```
 DELETE FROM students WHERE id>=5 AND id<=7;
 
+```
+
+删除整个表的数据
+```
+DELETE FROM students;
+```
+
+
+# 库
+创建一个新数据库：
+```
+CREATE DATABASE test;
+```
+
+
+删除一个数据库
+```
+DROP DATABASE test
+```
+
+切换数据库
+```
+USE test
+```
+
+列出当前数据库的所有表
+
+```
+SHOW TABLES;
+```
+
+查看一个表的结构
+
+```
+DESC students
+```
+
+查看创建表的SQL语句
+
+```
+SHOW CREATE TABLE students
 ```
