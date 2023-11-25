@@ -31,7 +31,9 @@ create table 表名(列名 数据类型[列级约束条件],
 - datetime用于混合存储日期+时间
 ### 列级约束条件
 
-列级约束有六种：主键Primary key、外键foreign key 、唯一 unique、检查 check （MySQL不支持）、默认default 、非空/空值 not null/ null
+列级约束有六种：主键Primary key、外键foreign key 、唯一 unique、检查 check （MySQL不支持）、默认default 、非空/空值 not null/ null 
+
+自增：AUTO_INCREMENT,
 
 ### 表级约束条件
 

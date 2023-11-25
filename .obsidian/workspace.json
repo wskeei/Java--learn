@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Note/MySQL.md",
+                "file": "op/实验.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note/MySQL.md",
+                "file": "op/实验.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note/MySQL.md",
+                "file": "op/实验.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note/MySQL.md"
+                "file": "op/实验.md"
               }
             }
           }
@@ -147,10 +147,50 @@
       "command-palette:打开命令面板": false
     }
   },
+  "floating": {
+    "id": "09706e998bc0f79c",
+    "type": "floating",
+    "children": [
+      {
+        "id": "5524eb4614f83765",
+        "type": "window",
+        "children": [
+          {
+            "id": "19064eb54680a18c",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "268cb95b011d95d8",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Note/MySQL.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 0,
+        "y": 204,
+        "width": 1024,
+        "height": 740,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
   "active": "905e71a17b3034df",
   "lastOpenFiles": [
-    "Note/异常.md",
     "Note/MySQL.md",
+    "op/实验.md",
+    "Note/E2.md",
+    "op",
+    "Note/异常.md",
     "Note/嵌套类/嵌套类.md",
     "Java-learn/src/nested_class/inner_class/anonymous_class/AnonymousClass.java~",
     "Java-learn/src/nested_class/inner_class/anonymous_class/AnonymousClass.java",
@@ -160,7 +200,6 @@
     "Java-learn/src/nested_class/inner_class/anonymous_class/Animal.java",
     "Java-learn/src/nested_class/inner_class/anonymous_class/Calculate.java~",
     "Java-learn/src/nested_class/inner_class/anonymous_class/Calculate.java",
-    "Java-learn/src/nested_class/inner_class/anonymous_class",
-    "Java-learn/src/nested_class/inner_class/LocalClass.java~"
+    "Java-learn/src/nested_class/inner_class/anonymous_class"
   ]
 }
