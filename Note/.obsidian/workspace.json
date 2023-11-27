@@ -1,0 +1,158 @@
+{
+  "main": {
+    "id": "7c764cac1e02ea9b",
+    "type": "split",
+    "children": [
+      {
+        "id": "dd94064c0b0cf5c8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8daa498333a2e082",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "E2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e99faabd92e85cac",
+    "type": "split",
+    "children": [
+      {
+        "id": "689fd6d2af5c7a7c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fcc11f3b0c05cf9d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "cbedc5fce94a8e77",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7494d904ae057ab2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "293b4fb564d30ae2",
+    "type": "split",
+    "children": [
+      {
+        "id": "e9d365199029e46f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "84347cf527adfaaa",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "E2.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c4198c963034d6ce",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "E2.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "78dedadbd4d92d58",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "4565311ffa59549c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "E2.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "8daa498333a2e082",
+  "lastOpenFiles": [
+    "MySQL.md",
+    "E2.md",
+    "集合与泛型/1.集合与泛型.pdf",
+    "集合.md",
+    "嵌套类/嵌套类.md",
+    "嵌套类/10.嵌套类.pdf"
+  ]
+}
