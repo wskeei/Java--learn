@@ -1,4 +1,4 @@
-package com.cyx.compare;
+package Colltection.compare;
 
 import java.util.ArrayList;
 import java.util.Arrays;

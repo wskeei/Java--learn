@@ -1,4 +1,4 @@
-package com.cyx.map;
+package Colltection.map;
 
 import java.util.Comparator;
 import java.util.LinkedHashMap;

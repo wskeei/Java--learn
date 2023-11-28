@@ -1,4 +1,4 @@
-package com.cyx.list;
+package Colltection.list;
 
 import java.util.ArrayList;
 

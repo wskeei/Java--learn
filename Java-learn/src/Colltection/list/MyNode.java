@@ -1,4 +1,4 @@
-package com.cyx.list;
+package Colltection.list;
 
 /**
  * 自定义单向链表

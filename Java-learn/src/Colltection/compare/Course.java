@@ -1,4 +1,4 @@
-package com.cyx.compare;
+package Colltection.compare;
 
 public class Course {
 

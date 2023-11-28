@@ -1,4 +1,4 @@
-package com.cyx.set;
+package Colltection.set;
 
 
 public class Car /*implements Comparable<Car>*/ {

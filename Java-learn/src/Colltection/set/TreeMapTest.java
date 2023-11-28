@@ -1,4 +1,4 @@
-package com.cyx.set;
+package Colltection.set;
 
 import java.util.Comparator;
 import java.util.TreeSet;

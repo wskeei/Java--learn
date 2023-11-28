@@ -1,4 +1,4 @@
-package com.cyx.queue;
+package Colltection.queue;
 
 public class User implements Comparable<User>{
 

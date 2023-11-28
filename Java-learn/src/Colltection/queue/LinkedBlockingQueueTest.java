@@ -1,4 +1,4 @@
-package com.cyx.queue;
+package Colltection.queue;
 
 import java.util.concurrent.LinkedBlockingQueue;
 

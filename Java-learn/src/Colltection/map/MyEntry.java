@@ -1,4 +1,4 @@
-package com.cyx.map;
+package Colltection.map;
 
 public class MyEntry<K,V> {
 
