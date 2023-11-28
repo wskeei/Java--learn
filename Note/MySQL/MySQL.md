@@ -1,5 +1,12 @@
 # 表操作
 
+## 添加注释
+1.  \#、
+2. -- (后面有空格)、
+3.  /**/
+4. COMMENT
+
+
 ## 创建表：
 `CREATE TABLE`
 
@@ -8,6 +15,36 @@ create table 表名(列名 数据类型[列级约束条件],
 			列名 数据类型[列级约束条件], 
 			... 
 			[,表级约束条件])
+```
+
+
+```SQL
+CREATE TABLE IF NOT EXISTS specialty (
+  `zno` CHAR(4) COLLATE utf8_bin NOT NULL COMMENT '专业号',
+  -- COLLATE utf8_bin 表示对 UTF-8 字符集使用二进制排序规则。
+  -- COMMENT 添加注释
+  
+  `zname` VARCHAR(50) COLLATE utf8_bin DEFAULT NULL COMMENT '专业名',
+  -- DEFAULT NULL：未提供时使用NULL填充
+  PRIMARY KEY (`zno`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin COMMENT='专业表';
+
+```
+
+```SQL
+DROP TABLE IF EXISTS `student`;
+CREATE TABLE `student` (
+  `sno` CHAR(20) COLLATE utf8_bin NOT NULL COMMENT '学号',
+  `sname` VARCHAR(20) COLLATE utf8_bin NOT NULL COMMENT '姓名',
+  `ssex` ENUM('男', '女') NOT NULL DEFAULT '男' COMMENT '性别',
+  `sbirth` date NOT NULL COMMENT '出生日期',
+  `zno` CHAR(4) COLLATE utf8_bin NOT NULL COMMENT '专业号',
+  `sclass` VARCHAR(10) COLLATE utf8_bin NOT NULL COMMENT '班级',
+  PRIMARY KEY (`sno`),
+  KEY `zno` (`zno`),
+  CONSTRAINT `zno` FOREIGN KEY (`zno`) REFERENCES `specialty` (`zno`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
+
 ```
 ### 数据类型
 字符串存储：
@@ -29,6 +66,10 @@ create table 表名(列名 数据类型[列级约束条件],
 - time存储时间
 - year存储年份
 - datetime用于混合存储日期+时间
+
+枚举：
+`ENUM`
+如：`ssex` `ENUM('男', '女')`
 ### 列级约束条件
 
 列级约束有六种：主键Primary key、外键foreign key 、唯一 unique、检查 check （MySQL不支持）、默认default 、非空/空值 not null/ null 
@@ -39,6 +80,10 @@ create table 表名(列名 数据类型[列级约束条件],
 
 表级约束有四种：主键、外键、唯一、检查
 
+`[ CONSTRAINT <约束名> ] <约束类型>`
+
+`CONSTRAINT zno FOREIGN KEY (zno) REFERENCES specialty (zno)`
+
 ## 删除表使用
 `DROP TABLE`
 
@@ -47,12 +92,15 @@ DROP TABLE students
 ```
 
 ## 修改表：
-
+###  增加
 给`students`表新增一列`birth`
 
 ```
 ALTER TABLE students ADD COLUMN birth VARCHAR(10) NOT NULL;
 ```
+
+### 修改
+使用`CHANGE` 或 `MODIFY`
 
 修改`birth`列，把列名改为`birthday`，类型改为`VARCHAR(20)`：
 
@@ -60,13 +108,20 @@ ALTER TABLE students ADD COLUMN birth VARCHAR(10) NOT NULL;
 ALTER TABLE students CHANGE COLUMN birth birthday VARCHAR(20) NOT NULL;
 ```
 
-删除列
+```
+ALTER TABLE student
+MODIFY COLUMN ssex ENUM('男','女','未知') COLLATE utf8_bin NOT NULL DEFAULT '男' COMMENT '性别';
+-- MODIFY 修改 不包括列名
+```
+
+### 删除列
 
 ```
 ALTER TABLE students DROP COLUMN birthday;
 ```
 
 ### 外键
+
 ```SQL
 ALTER TABLE students # 修学生表
 ADD CONSTRAINT fk_class_id # 外键约束命名
@@ -75,7 +130,7 @@ REFERENCES classes (id); # 外键关联到classes的id列
 
 ```
 ### 引索
-```
+```SQL
 ALTER TABLE students
 ADD INDEX idx_score (score); # 对score列创建引索，引索名称为idx_score
 ```

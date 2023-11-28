@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "E2.md",
+                "file": "MySQL/练习.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "E2.md",
+                "file": "MySQL/实验.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "E2.md",
+                "file": "MySQL/实验.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "E2.md"
+                "file": "MySQL/实验.md"
               }
             }
           }
@@ -146,10 +146,49 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "8daa498333a2e082",
+  "floating": {
+    "id": "3e89fa7466e53751",
+    "type": "floating",
+    "children": [
+      {
+        "id": "815d7b9737dce6e9",
+        "type": "window",
+        "children": [
+          {
+            "id": "2bb0d710955ac548",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "e98579a1249372f7",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "MySQL/实验.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 1696,
+        "y": 312,
+        "width": 1026,
+        "height": 800,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "e98579a1249372f7",
   "lastOpenFiles": [
-    "MySQL.md",
-    "E2.md",
+    "MySQL/练习.md",
+    "MySQL/实验.md",
+    "MySQL/MySQL.md",
+    "MySQL",
     "集合与泛型/1.集合与泛型.pdf",
     "集合.md",
     "嵌套类/嵌套类.md",
