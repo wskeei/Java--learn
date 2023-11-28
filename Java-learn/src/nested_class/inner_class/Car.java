@@ -26,7 +26,8 @@ public class Car {
         }
         public void show(){
             System.out.println(brand + "汽车使用的是" + type + "发动机，价格为：" + price);
-//如果内部类中存在于外部类同名的成员变量时，想要使用外部类的同名成员变量，需要加上： 外部类类名.this.变量名
+
+            //如果内部类中存在于外部类同名的成员变量时，想要使用外部类的同名成员变量，需要加上： 外部类类名.this.变量名
             System.out.println("汽车总价为：" + Car.this.price);
         }
     }
