@@ -153,7 +153,7 @@ ADD CONSTRAINT uni_name UNIQUE (name);
 SELECT * FROM <表名> # *:表示所有列
 ```
 
-`SELECT * FROM students; #查询students表的所有数据
+`SELECT * FROM students; \#查询students表的所有数据
 
 ### 条件查询
 使用`WHERE`实现
@@ -339,6 +339,13 @@ ON s.class_id = c.id;
 `LEFT OUTER JOIN`：选出左表存在的记录
 `FULL OUTER JOIN`：选出左右表都存在的记录
 
+### 其他命令
+#### desc
+The SQL DESCRIBE or DESC command is used to show the structure of a table
+
+```
+DESC table_name;
+```
 
 # 修改数据
 
