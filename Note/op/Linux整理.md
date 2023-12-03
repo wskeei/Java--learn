@@ -1,3 +1,5 @@
+## 实战一 DNS配置
+
 ## 实战二 WWW 服务器搭建
 
 ### 基础操作
@@ -18,14 +20,34 @@
 12. 重启服务
 13. 测评
 ## 实战三 Samba服务器搭建
+
+### 基础操作
+`sudo apt-get install samba`
+``sudo service smbd status``
 ### 第三关
-1. 完成初始化，这里设置密码为123
-2. 重启samba服务器
-3. 输入命令： `smbclient //127.0.0.1/testUser -U testUser%123`
-4. 输入：`mkdir Dir`
-5. 输入: `put /root/testFile Dir/upLoadFile`
-6. 输入：`exit`
-7. 测评
+0.  完成初始化，
+	*  `apt-get install smbclient`
+	* `useradd testUser`
+	* `smbpasswd -a testUser`
+	*  `touch testFile`
+	* `vim /etc/samba/smb.conf`
+
+```
+[homes]
+	comment = smbclient homes
+	path = /tmp
+	browseable = no
+	writable = yes
+	create mask = 0664
+	directory mask = 0775
+```
+
+1. 重启samba服务器
+2. 输入命令： `smbclient //127.0.0.1/testUser -U testUser%123`
+3. 输入：`mkdir Dir`
+4. 输入: `put /root/testFile Dir/upLoadFile`
+5. 输入：`exit`
+6. 测评
 ### 第四关
 1. 完成初始化，这里设置密码为123
 2. 输入：`sudo vim /etc/samba/smb.conf`
@@ -33,7 +55,7 @@
 ```
 [TestShare]
         comment = smbclient homes
-        path = /tmp
+        path = /testDir
         browseable = yes
         writable = yes
         create mask = 0644

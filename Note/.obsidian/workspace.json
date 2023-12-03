@@ -13,11 +13,55 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "op/Linux整理.md",
+                "file": "MySQL/MySQL.md",
                 "mode": "source",
+                "backlinks": true,
                 "source": false
               }
-            }
+            },
+            "group": "04fe9423a6b83b0e"
+          }
+        ]
+      },
+      {
+        "id": "6bb5c36b2bc4bdf1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "160b0010b9006126",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "MySQL/MySQL.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1,
+                  "close": false
+                }
+              }
+            },
+            "group": "04fe9423a6b83b0e"
           }
         ]
       }
@@ -69,8 +113,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "293b4fb564d30ae2",
@@ -86,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "op/Linux整理.md",
+                "file": "MySQL/MySQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "op/Linux整理.md",
+                "file": "MySQL/MySQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "op/Linux整理.md"
+                "file": "MySQL/MySQL.md"
               }
             }
           }
@@ -147,18 +190,19 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "8daa498333a2e082",
+  "active": "160b0010b9006126",
   "lastOpenFiles": [
-    "集合与泛型/1.集合与泛型.pdf",
+    "异常.md",
+    "MySQL/MySQL.md",
+    "table.md",
+    "MySQL/实验.md",
+    "集合.md",
     "op/Linux整理.md",
+    "集合与泛型/1.集合与泛型.pdf",
     "op",
     "嵌套类/10.嵌套类.pdf",
     "嵌套类/嵌套类.md",
     "MySQL/练习.md",
-    "MySQL/实验.md",
-    "MySQL/MySQL.md",
-    "异常.md",
-    "集合.md",
     "MySQL"
   ]
 }
