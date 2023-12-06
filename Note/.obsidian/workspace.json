@@ -13,55 +13,11 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MySQL/MySQL.md",
+                "file": "op/第二章 文件操作.md",
                 "mode": "source",
-                "backlinks": true,
                 "source": false
               }
-            },
-            "group": "04fe9423a6b83b0e"
-          }
-        ]
-      },
-      {
-        "id": "6bb5c36b2bc4bdf1",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "160b0010b9006126",
-            "type": "leaf",
-            "state": {
-              "type": "localgraph",
-              "state": {
-                "file": "MySQL/MySQL.md",
-                "options": {
-                  "collapse-filter": true,
-                  "search": "",
-                  "localJumps": 1,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": true,
-                  "showArrow": false,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 1,
-                  "close": false
-                }
-              }
-            },
-            "group": "04fe9423a6b83b0e"
+            }
           }
         ]
       }
@@ -129,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MySQL/MySQL.md",
+                "file": "op/第二章 文件操作.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MySQL/MySQL.md",
+                "file": "op/第二章 文件操作.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MySQL/MySQL.md"
+                "file": "op/第二章 文件操作.md"
               }
             }
           }
@@ -190,19 +146,37 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "160b0010b9006126",
+  "active": "8daa498333a2e082",
   "lastOpenFiles": [
-    "异常.md",
-    "MySQL/MySQL.md",
-    "table.md",
-    "MySQL/实验.md",
-    "集合.md",
-    "op/Linux整理.md",
+    "op/第一章 Linux介绍.md",
+    "op/第二章 文件操作.md",
+    "op/第八章 网络实战.md",
+    "IO流/9.IO流.pdf",
     "集合与泛型/1.集合与泛型.pdf",
+    "test/双链笔记.md",
+    "IO流",
+    "test/A.md",
+    "集合.md",
+    "test/未命名.canvas",
+    "test/G.md",
+    "test/F.md",
+    "test/E.md",
+    "test/D.md",
+    "test/C.md",
+    "test/B.md",
+    "test",
+    "test/红楼梦 [Hong Lou Meng (2-volume-set, 120 chapters 3rd ed. 2008] (曹雪芹, 高鹗, 程伟元) (Z-Library).md",
+    "test/红楼梦 [Hong Lou Meng (2-volume-set, 120 chapters 3rd ed. 2008] (曹雪芹, 高鹗, 程伟元) (Z-Library).txt",
+    "test",
+    "test",
+    "MySQL/MySQL.md",
+    "MySQL/练习.md",
+    "异常.md",
+    "MySQL/实验.md",
+    "table.md",
     "op",
     "嵌套类/10.嵌套类.pdf",
     "嵌套类/嵌套类.md",
-    "MySQL/练习.md",
     "MySQL"
   ]
 }
