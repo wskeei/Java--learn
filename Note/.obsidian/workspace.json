@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "op/第二章 文件操作.md",
+                "file": "MySQL/练习.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "op/第二章 文件操作.md",
+                "file": "MySQL/练习.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "op/第二章 文件操作.md",
+                "file": "MySQL/练习.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "op/第二章 文件操作.md"
+                "file": "MySQL/练习.md"
               }
             }
           }
@@ -148,14 +148,16 @@
   },
   "active": "8daa498333a2e082",
   "lastOpenFiles": [
+    "MySQL/实验.md",
+    "MySQL/练习.md",
+    "test/双链笔记.md",
+    "test/A.md",
     "op/第一章 Linux介绍.md",
     "op/第二章 文件操作.md",
     "op/第八章 网络实战.md",
     "IO流/9.IO流.pdf",
     "集合与泛型/1.集合与泛型.pdf",
-    "test/双链笔记.md",
     "IO流",
-    "test/A.md",
     "集合.md",
     "test/未命名.canvas",
     "test/G.md",
@@ -170,9 +172,7 @@
     "test",
     "test",
     "MySQL/MySQL.md",
-    "MySQL/练习.md",
     "异常.md",
-    "MySQL/实验.md",
     "table.md",
     "op",
     "嵌套类/10.嵌套类.pdf",
