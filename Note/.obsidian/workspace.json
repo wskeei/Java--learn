@@ -11,11 +11,9 @@
             "id": "8daa498333a2e082",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "op/第二章 文件操作.md",
-                "mode": "source",
-                "source": false
+                "file": "MySQL/01/联表查询.pdf"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "op/第二章 文件操作.md",
+                "file": "MySQL/01/联表查询.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "op/第二章 文件操作.md",
+                "file": "MySQL/01/联表查询.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "op/第二章 文件操作.md"
+                "file": "MySQL/01/联表查询.pdf"
               }
             }
           }
@@ -148,14 +146,23 @@
   },
   "active": "8daa498333a2e082",
   "lastOpenFiles": [
+    "MySQL/01/MySQL常用函数.pdf",
+    "MySQL/01/MySQL数据的增删改查.pdf",
+    "MySQL/01/SQL.md",
+    "MySQL/01/联表查询.pdf",
+    "MySQL/01/未命名.md",
+    "MySQL/01",
+    "MySQL/MySQL.md",
+    "MySQL/实验.md",
+    "MySQL/练习.md",
+    "test/双链笔记.md",
+    "test/A.md",
     "op/第一章 Linux介绍.md",
     "op/第二章 文件操作.md",
     "op/第八章 网络实战.md",
     "IO流/9.IO流.pdf",
     "集合与泛型/1.集合与泛型.pdf",
-    "test/双链笔记.md",
     "IO流",
-    "test/A.md",
     "集合.md",
     "test/未命名.canvas",
     "test/G.md",
@@ -168,15 +175,8 @@
     "test/红楼梦 [Hong Lou Meng (2-volume-set, 120 chapters 3rd ed. 2008] (曹雪芹, 高鹗, 程伟元) (Z-Library).md",
     "test/红楼梦 [Hong Lou Meng (2-volume-set, 120 chapters 3rd ed. 2008] (曹雪芹, 高鹗, 程伟元) (Z-Library).txt",
     "test",
-    "test",
-    "MySQL/MySQL.md",
-    "MySQL/练习.md",
     "异常.md",
-    "MySQL/实验.md",
     "table.md",
-    "op",
-    "嵌套类/10.嵌套类.pdf",
-    "嵌套类/嵌套类.md",
-    "MySQL"
+    "嵌套类/嵌套类.md"
   ]
 }
