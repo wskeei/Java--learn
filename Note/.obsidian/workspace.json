@@ -11,11 +11,54 @@
             "id": "8daa498333a2e082",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "image",
               "state": {
-                "file": "MySQL/01/联表查询.pdf"
+                "file": "MySQL/01/整理.excalidraw.svg"
               }
-            }
+            },
+            "group": "1fc9c673d9a773e9"
+          }
+        ]
+      },
+      {
+        "id": "9df713c0dc7bda5a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6886bdd22abca3ca",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "MySQL/01/整理.excalidraw.svg",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1,
+                  "close": true
+                }
+              }
+            },
+            "group": "1fc9c673d9a773e9"
           }
         ]
       }
@@ -83,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MySQL/01/联表查询.pdf",
+                "file": "MySQL/01/整理.excalidraw.svg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MySQL/01/联表查询.pdf",
+                "file": "MySQL/01/整理.excalidraw.svg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MySQL/01/联表查询.pdf"
+                "file": "MySQL/01/整理.excalidraw.svg"
               }
             }
           }
@@ -141,26 +184,33 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
   "active": "8daa498333a2e082",
   "lastOpenFiles": [
-    "MySQL/01/MySQL常用函数.pdf",
+    "MySQL/01/整理.excalidraw.md",
+    "Pasted Image 20231209132804_807.png",
+    "Pasted Image 20231209132630_297.png",
+    "MySQL/01/整理.excalidraw.svg",
     "MySQL/01/MySQL数据的增删改查.pdf",
-    "MySQL/01/SQL.md",
+    "MySQL/01/MySQL常用函数.pdf",
     "MySQL/01/联表查询.pdf",
-    "MySQL/01/未命名.md",
-    "MySQL/01",
     "MySQL/MySQL.md",
     "MySQL/实验.md",
+    "IO流/9.IO流.pdf",
+    "MySQL/01/a.md",
+    "MySQL/01/DQL.md",
+    "MySQL/01/SQL.md",
+    "MySQL/01/未命名.md",
+    "MySQL/01",
     "MySQL/练习.md",
     "test/双链笔记.md",
     "test/A.md",
     "op/第一章 Linux介绍.md",
     "op/第二章 文件操作.md",
     "op/第八章 网络实战.md",
-    "IO流/9.IO流.pdf",
     "集合与泛型/1.集合与泛型.pdf",
     "IO流",
     "集合.md",

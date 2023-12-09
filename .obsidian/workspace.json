@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "15c17d9cc262e4ec",
+        "id": "603faf9b5e8e5b99",
         "type": "tabs",
         "children": [
           {
-            "id": "905e71a17b3034df",
+            "id": "81f001d85918748b",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Note/嵌套类/10.嵌套类.pdf"
+                "file": "Note/MySQL/01/联表查询.pdf"
               }
             }
           }
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note/嵌套类/10.嵌套类.pdf",
+                "file": "Note/MySQL/01/联表查询.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note/嵌套类/10.嵌套类.pdf",
+                "file": "Note/MySQL/01/联表查询.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note/嵌套类/10.嵌套类.pdf"
+                "file": "Note/MySQL/01/联表查询.pdf"
               }
             }
           }
@@ -141,11 +141,31 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "905e71a17b3034df",
+  "active": "b5b18042d5250b0d",
   "lastOpenFiles": [
+    "Note/MySQL/01/整理.excalidraw.md",
+    "Note/MySQL/01/联表查询.pdf",
+    "Note/MySQL/01/SQL.md",
+    "Note/MySQL/01/MySQL数据的增删改查.pdf",
+    "Note/MySQL/01/MySQL常用函数.pdf",
+    "Note/MySQL/01/DQL.md",
+    "Note/MySQL/01/a.md",
+    "Note/MySQL/练习.md",
+    "Note/MySQL/MySQL.md",
+    "Note/MySQL/实验.md",
+    "3985563-e7febf364d8d8235.webp",
+    "3985563-06052107849a7603.webp",
+    "Note/MySQL/01/未命名.canvas",
+    "Note/op/第一章 Linux介绍.md",
+    "Note/op/第二章 文件操作.md",
+    "Note/op/第八章 网络实战.md",
+    "Note/Drawing 2023-12-06 11.33.32.excalidraw.md",
+    "Note/op/Linux整理.md",
+    "Note/嵌套类/10.嵌套类.pdf",
     "Note/异常.md",
     "op/实验.md",
     "Note/MySQL.md",
@@ -156,10 +176,6 @@
     "Java-learn/src/nested_class/inner_class/anonymous_class/AnonymousClass.java",
     "Java-learn/src/nested_class/inner_class/anonymous_class/Student.java~",
     "Java-learn/src/nested_class/inner_class/anonymous_class/Animal.java~",
-    "Java-learn/src/nested_class/inner_class/anonymous_class/Student.java",
-    "Java-learn/src/nested_class/inner_class/anonymous_class/Animal.java",
-    "Java-learn/src/nested_class/inner_class/anonymous_class/Calculate.java~",
-    "Java-learn/src/nested_class/inner_class/anonymous_class/Calculate.java",
-    "Java-learn/src/nested_class/inner_class/anonymous_class"
+    "Java-learn/src/nested_class/inner_class/anonymous_class/Student.java"
   ]
 }
