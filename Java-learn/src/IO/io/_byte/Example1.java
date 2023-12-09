@@ -1,4 +1,4 @@
-package com.cyx.io._byte;
+package IO.io._byte;
 
 import java.io.*;
 
@@ -18,6 +18,7 @@ public class Example1 {
         try {
             File dir = new File("F:\\aa");
             if(!dir.exists()) dir.mkdirs();
+
             File file = new File(dir, "io.txt");
             //构建磁盘文件与内存之间的通道
             OutputStream os = new FileOutputStream(file, true);

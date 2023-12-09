@@ -1,3 +1,4 @@
+## DQL
 ```SQL
 -- 查询课程名只有三个字符的课程信息
 SELECT * FROM course WHERE name LIKE '___';

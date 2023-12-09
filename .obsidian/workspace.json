@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "15c17d9cc262e4ec",
+        "id": "8b48f873bc899a81",
         "type": "tabs",
         "children": [
           {
-            "id": "905e71a17b3034df",
+            "id": "a0043b46bb0b772f",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Note/嵌套类/10.嵌套类.pdf"
+                "file": "Note/JAVA/函数式接口和方法引用/2.函数式接口和方法引用.pdf"
               }
             }
           }
@@ -67,7 +67,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "d31aef8c91281e20",
@@ -83,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note/嵌套类/10.嵌套类.pdf",
+                "file": "Note/JAVA/函数式接口和方法引用/2.函数式接口和方法引用.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note/嵌套类/10.嵌套类.pdf",
+                "file": "Note/JAVA/函数式接口和方法引用/2.函数式接口和方法引用.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,11 +124,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note/嵌套类/10.嵌套类.pdf"
+                "file": "Note/JAVA/函数式接口和方法引用/2.函数式接口和方法引用.pdf"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -141,25 +143,81 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "vscode-editor:新建代码文件": false
     }
   },
-  "active": "905e71a17b3034df",
+  "floating": {
+    "id": "1aa0630109d9eb5d",
+    "type": "floating",
+    "children": [
+      {
+        "id": "9bc5a7f9a7cdb20f",
+        "type": "window",
+        "children": [
+          {
+            "id": "6f15f7f024c72054",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "0301efab37e3c02f",
+                "type": "leaf",
+                "state": {
+                  "type": "excalidraw",
+                  "state": {
+                    "file": "Note/JAVA/IO流/总结.excalidraw.md"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 1211,
+        "y": 358,
+        "width": 1025,
+        "height": 800,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "a0043b46bb0b772f",
   "lastOpenFiles": [
+    "Java-learn/src/Method_FunctionalInterface/consumer/ConsumerTest.java~",
+    "Java-learn/src/Method_FunctionalInterface/_static/member/_super/JavaProgrammerTest.java~",
+    "Java-learn/src/Method_FunctionalInterface/_static/member/_static/Person.java",
+    "Java-learn/src/Method_FunctionalInterface/_static/member/_static/ActorTest.java",
+    "Java-learn/src/Method_FunctionalInterface/_static/member/_static/Actor.java",
+    "Java-learn/src/Method_FunctionalInterface/_static/member/_this/PersonTest.java",
+    "Java-learn/src/Method_FunctionalInterface/_static/member/_this/Person.java",
+    "Java-learn/src/Method_FunctionalInterface/_static/member/_this/Camera.java",
+    "Java-learn/src/Method_FunctionalInterface/_static/member/_super/SoftEngineer.java",
+    "Java-learn/src/Method_FunctionalInterface/_static/member/_super/JavaProgrammer.java",
+    "Java-learn/src/Method_FunctionalInterface/_static/member/_super/JavaProgrammerTest.java",
+    "Note/JAVA/IO流/总结.excalidraw.md",
+    "Note/JAVA/集合.md",
+    "Note/JAVA/IO流/编写.md",
+    "Note/MySQL/01/整理.excalidraw.md",
+    "Note/MySQL/01/SQL.md",
+    "Note/MySQL/01/DQL.md",
+    "Note/MySQL/01/a.md",
+    "Note/MySQL/练习.md",
+    "Note/MySQL/MySQL.md",
+    "Note/MySQL/实验.md",
+    "3985563-e7febf364d8d8235.webp",
+    "3985563-06052107849a7603.webp",
+    "Note/MySQL/01/未命名.canvas",
+    "Note/op/第一章 Linux介绍.md",
+    "Note/op/第二章 文件操作.md",
+    "Note/op/第八章 网络实战.md",
+    "Note/Drawing 2023-12-06 11.33.32.excalidraw.md",
+    "Note/op/Linux整理.md",
     "Note/异常.md",
     "op/实验.md",
     "Note/MySQL.md",
     "Note/E2.md",
-    "op",
-    "Note/嵌套类/嵌套类.md",
-    "Java-learn/src/nested_class/inner_class/anonymous_class/AnonymousClass.java~",
-    "Java-learn/src/nested_class/inner_class/anonymous_class/AnonymousClass.java",
-    "Java-learn/src/nested_class/inner_class/anonymous_class/Student.java~",
-    "Java-learn/src/nested_class/inner_class/anonymous_class/Animal.java~",
-    "Java-learn/src/nested_class/inner_class/anonymous_class/Student.java",
-    "Java-learn/src/nested_class/inner_class/anonymous_class/Animal.java",
-    "Java-learn/src/nested_class/inner_class/anonymous_class/Calculate.java~",
-    "Java-learn/src/nested_class/inner_class/anonymous_class/Calculate.java",
-    "Java-learn/src/nested_class/inner_class/anonymous_class"
+    "Note/嵌套类/嵌套类.md"
   ]
 }

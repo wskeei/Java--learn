@@ -1,4 +1,4 @@
-package com.cyx.io._char;
+package IO.io._char;
 
 import java.io.*;
 

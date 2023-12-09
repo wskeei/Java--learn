@@ -1,20 +1,18 @@
 {
   "main": {
-    "id": "7c764cac1e02ea9b",
+    "id": "8171f60ab93b5732",
     "type": "split",
     "children": [
       {
-        "id": "dd94064c0b0cf5c8",
+        "id": "7628db926666a687",
         "type": "tabs",
         "children": [
           {
-            "id": "8daa498333a2e082",
+            "id": "c829660dcc839059",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "MySQL/01/联表查询.pdf"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -23,15 +21,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "e99faabd92e85cac",
+    "id": "f4b9ce1ccb123de4",
     "type": "split",
     "children": [
       {
-        "id": "689fd6d2af5c7a7c",
+        "id": "6cbb1f8f5bf368f3",
         "type": "tabs",
         "children": [
           {
-            "id": "fcc11f3b0c05cf9d",
+            "id": "151251486ecec435",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -41,7 +39,7 @@
             }
           },
           {
-            "id": "cbedc5fce94a8e77",
+            "id": "15e39b3147972a48",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -56,7 +54,7 @@
             }
           },
           {
-            "id": "7494d904ae057ab2",
+            "id": "7d76963fde70d4b9",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -70,20 +68,19 @@
     "width": 300
   },
   "right": {
-    "id": "293b4fb564d30ae2",
+    "id": "134f48956066ba42",
     "type": "split",
     "children": [
       {
-        "id": "e9d365199029e46f",
+        "id": "25de48b3fdbe7152",
         "type": "tabs",
         "children": [
           {
-            "id": "84347cf527adfaaa",
+            "id": "bc68b08c7b585af2",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MySQL/01/联表查询.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,19 +92,18 @@
             }
           },
           {
-            "id": "c4198c963034d6ce",
+            "id": "088270640847f8b3",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MySQL/01/联表查询.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "78dedadbd4d92d58",
+            "id": "eb10153a13183498",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -118,13 +114,11 @@
             }
           },
           {
-            "id": "4565311ffa59549c",
+            "id": "dc4074ce0468bd68",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "MySQL/01/联表查询.pdf"
-              }
+              "state": {}
             }
           }
         ]
@@ -144,39 +138,6 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "8daa498333a2e082",
-  "lastOpenFiles": [
-    "MySQL/01/MySQL常用函数.pdf",
-    "MySQL/01/MySQL数据的增删改查.pdf",
-    "MySQL/01/SQL.md",
-    "MySQL/01/联表查询.pdf",
-    "MySQL/01/未命名.md",
-    "MySQL/01",
-    "MySQL/MySQL.md",
-    "MySQL/实验.md",
-    "MySQL/练习.md",
-    "test/双链笔记.md",
-    "test/A.md",
-    "op/第一章 Linux介绍.md",
-    "op/第二章 文件操作.md",
-    "op/第八章 网络实战.md",
-    "IO流/9.IO流.pdf",
-    "集合与泛型/1.集合与泛型.pdf",
-    "IO流",
-    "集合.md",
-    "test/未命名.canvas",
-    "test/G.md",
-    "test/F.md",
-    "test/E.md",
-    "test/D.md",
-    "test/C.md",
-    "test/B.md",
-    "test",
-    "test/红楼梦 [Hong Lou Meng (2-volume-set, 120 chapters 3rd ed. 2008] (曹雪芹, 高鹗, 程伟元) (Z-Library).md",
-    "test/红楼梦 [Hong Lou Meng (2-volume-set, 120 chapters 3rd ed. 2008] (曹雪芹, 高鹗, 程伟元) (Z-Library).txt",
-    "test",
-    "异常.md",
-    "table.md",
-    "嵌套类/嵌套类.md"
-  ]
+  "active": "c829660dcc839059",
+  "lastOpenFiles": []
 }
