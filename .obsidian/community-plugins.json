@@ -1,7 +1,10 @@
 [
+<<<<<<<<< Temporary merge branch 1
+  "obsidian-excalidraw-plugin"
+=========
   "obsidian-excalidraw-plugin",
   "vscode-editor",
   "easy-typing-obsidian",
-  "cm-chs-patch",
-  "floating-toc"
+  "cm-chs-patch"
+>>>>>>>>> Temporary merge branch 2
 ]
