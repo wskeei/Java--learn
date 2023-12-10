@@ -11,9 +11,11 @@
             "id": "a0043b46bb0b772f",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Note/JAVA/函数式接口和方法引用/2.函数式接口和方法引用.pdf"
+                "file": "Note/op/第一章 Linux介绍.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -67,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "d31aef8c91281e20",
@@ -84,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note/JAVA/函数式接口和方法引用/2.函数式接口和方法引用.pdf",
+                "file": "Note/op/第一章 Linux介绍.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note/JAVA/函数式接口和方法引用/2.函数式接口和方法引用.pdf",
+                "file": "Note/op/第一章 Linux介绍.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note/JAVA/函数式接口和方法引用/2.函数式接口和方法引用.pdf"
+                "file": "Note/op/第一章 Linux介绍.md"
               }
             }
           }
@@ -148,56 +149,23 @@
       "vscode-editor:新建代码文件": false
     }
   },
-  "floating": {
-    "id": "1aa0630109d9eb5d",
-    "type": "floating",
-    "children": [
-      {
-        "id": "9bc5a7f9a7cdb20f",
-        "type": "window",
-        "children": [
-          {
-            "id": "6f15f7f024c72054",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "0301efab37e3c02f",
-                "type": "leaf",
-                "state": {
-                  "type": "excalidraw",
-                  "state": {
-                    "file": "Note/JAVA/IO流/总结.excalidraw.md"
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 1211,
-        "y": 358,
-        "width": 1025,
-        "height": 800,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
   "active": "a0043b46bb0b772f",
   "lastOpenFiles": [
-    "Java-learn/src/Method_FunctionalInterface/consumer/ConsumerTest.java~",
-    "Java-learn/src/Method_FunctionalInterface/_static/member/_super/JavaProgrammerTest.java~",
-    "Java-learn/src/Method_FunctionalInterface/_static/member/_static/Person.java",
-    "Java-learn/src/Method_FunctionalInterface/_static/member/_static/ActorTest.java",
-    "Java-learn/src/Method_FunctionalInterface/_static/member/_static/Actor.java",
-    "Java-learn/src/Method_FunctionalInterface/_static/member/_this/PersonTest.java",
-    "Java-learn/src/Method_FunctionalInterface/_static/member/_this/Person.java",
-    "Java-learn/src/Method_FunctionalInterface/_static/member/_this/Camera.java",
-    "Java-learn/src/Method_FunctionalInterface/_static/member/_super/SoftEngineer.java",
-    "Java-learn/src/Method_FunctionalInterface/_static/member/_super/JavaProgrammer.java",
-    "Java-learn/src/Method_FunctionalInterface/_static/member/_super/JavaProgrammerTest.java",
-    "Note/JAVA/IO流/总结.excalidraw.md",
+    "Note/JAVA/函数式接口和方法引用/2.函数式接口和方法引用.pdf",
+    "Java-learn/src/nested_class/lambda/PrintTimeTest.java",
+    "Note/JAVA/总结.excalidraw.md",
+    "Java-learn/src/nested_class/lambda/RandomNumberTest.java",
+    "Java-learn/src/nested_class/lambda/RandomNumber.java",
+    "Java-learn/src/nested_class/lambda/PrintableTest.java",
+    "Java-learn/src/nested_class/lambda/CalculateTest.java",
+    "Java-learn/src/nested_class/lambda/ActorTest.java",
+    "Java-learn/src/nested_class/lambda/Actor.java",
+    "Note/JAVA/嵌套类/10.嵌套类.pdf",
+    "Note/JAVA/IO流/9.IO流.pdf",
+    "Note/JAVA/00 导图.md",
+    "Note/JAVA/嵌套类/嵌套类.md",
     "Note/JAVA/集合.md",
+    "Note/JAVA/异常.md",
     "Note/JAVA/IO流/编写.md",
     "Note/MySQL/01/整理.excalidraw.md",
     "Note/MySQL/01/SQL.md",
