@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "8b48f873bc899a81",
+        "id": "bed7b95f79828352",
         "type": "tabs",
         "children": [
           {
-            "id": "a0043b46bb0b772f",
+            "id": "437ca32a5641a50d",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "excalidraw",
               "state": {
-                "file": "Note/MySQL/01/MySQL数据的增删改查.pdf"
+                "file": "Note/JAVA/总结.excalidraw.md"
               }
             }
           }
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note/MySQL/01/MySQL数据的增删改查.pdf",
+                "file": "Note/JAVA/总结.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note/MySQL/01/MySQL数据的增删改查.pdf",
+                "file": "Note/JAVA/总结.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note/MySQL/01/MySQL数据的增删改查.pdf"
+                "file": "Note/JAVA/总结.excalidraw.md"
               }
             }
           }
@@ -147,31 +147,95 @@
       "vscode-editor:新建代码文件": false
     }
   },
-  "active": "b5b18042d5250b0d",
+  "floating": {
+    "id": "1aa0630109d9eb5d",
+    "type": "floating",
+    "children": [
+      {
+        "id": "9d87ff94ea8e9b47",
+        "type": "window",
+        "children": [
+          {
+            "id": "72abcb5fb93daebf",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "4ada374eeb314f2b",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "Note/JAVA/集合与泛型/1.集合与泛型.pdf"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 1392,
+        "y": 342,
+        "width": 1024,
+        "height": 800,
+        "maximize": false,
+        "zoom": 0
+      },
+      {
+        "id": "5e46ab6e40217a10",
+        "type": "window",
+        "children": [
+          {
+            "id": "070deb066fcbfc6a",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "cae56a385357f8a0",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "Note/JAVA/集合与泛型/1.集合与泛型.pdf"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 1280,
+        "y": 0,
+        "width": 1280,
+        "height": 1392,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "437ca32a5641a50d",
   "lastOpenFiles": [
+    "Note/JAVA/集合与泛型/1.集合与泛型.pdf",
+    "Note/JAVA/总结.excalidraw.md",
+    "Note/JAVA/异常.md",
+    "Note/MySQL/练习.md",
+    "Note/JAVA/集合.md",
+    "Java-learn/src/Colltection/collection/GenericLowerLimit.java~",
+    "Java-learn/src/Colltection/collection/MyCollectionTest.java~",
+    "Note/JAVA/函数式接口和方法引用/2.函数式接口和方法引用.pdf",
+    "Note/JAVA/IO流/9.IO流.pdf",
+    "Note/MySQL/01/整理.excalidraw.md",
+    "Note/MySQL/01/MySQL数据的增删改查.pdf",
+    "Note/op/第二章 用户管理.md",
+    "Java-learn/src/Colltection/Test.java",
     "Note/MySQL/01/数据/lesson.sql",
     "Note/MySQL/01/数据/stu.sql",
     "Note/MySQL/01/数据/score.sql",
-    "Note/MySQL/01/数据",
-    "Note/MySQL/01/联表查询.pdf",
-    "Note/MySQL/01/整理.excalidraw.md",
     "Note/MySQL/01/整理.excalidraw.svg",
-    "Note/MySQL/01/MySQL常用函数.pdf",
-    "Note/MySQL/01/MySQL数据的增删改查.pdf",
     "Note/MySQL/01/SQL.md",
-    "Note/MySQL/练习.md",
     "Note/MySQL/实验.md",
     "Note/MySQL/MySQL.md",
     "Note/op/第一章 Linux介绍.md",
-    "Note/JAVA/函数式接口和方法引用/2.函数式接口和方法引用.pdf",
-    "Java-learn/src/nested_class/lambda/PrintTimeTest.java",
-    "Note/JAVA/总结.excalidraw.md",
-    "Java-learn/src/nested_class/lambda/RandomNumberTest.java",
-    "Java-learn/src/nested_class/lambda/RandomNumber.java",
     "Note/JAVA/00 导图.md",
     "Note/JAVA/嵌套类/嵌套类.md",
-    "Note/JAVA/集合.md",
-    "Note/JAVA/异常.md",
     "Note/JAVA/IO流/编写.md",
     "Note/MySQL/01/DQL.md",
     "Note/MySQL/01/a.md",

@@ -13,6 +13,8 @@ public class MyCollectionTest {
         c.add("d");
         c.add("e");
 
+
+
         MyCollection<String> c1 = new MyCollection<>();
         c1.add("b");
         c1.add("c");
@@ -20,6 +22,7 @@ public class MyCollectionTest {
 
         boolean contains1 = c.containsAll(c1);
         System.out.println(contains1);
+
 
         MyCollection<Integer> c2 = new MyCollection<>();
         c2.add(1);
