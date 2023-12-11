@@ -27,6 +27,7 @@ public class AnonymousClass {
                 return a + b;
             }
         };
+
         return c.calculate(a, b);
     }
 }

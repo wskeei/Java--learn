@@ -11,8 +11,10 @@
             "id": "c829660dcc839059",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "excalidraw",
+              "state": {
+                "file": "JAVA/总结.excalidraw.md"
+              }
             }
           }
         ]
@@ -81,6 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "JAVA/总结.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "JAVA/总结.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +122,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "JAVA/总结.excalidraw.md"
+              }
             }
           }
         ]
@@ -135,9 +141,16 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "vscode-editor:新建代码文件": false
     }
   },
   "active": "c829660dcc839059",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "JAVA/函数式接口和方法引用/2.函数式接口和方法引用.pdf",
+    "JAVA/总结.excalidraw.md",
+    "JAVA/嵌套类/嵌套类.md",
+    "JAVA/IO流/9.IO流.pdf"
+  ]
 }

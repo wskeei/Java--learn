@@ -6,7 +6,7 @@ public class LocalClass {
         System.out.println(result);
     }
     public static int calculate(int a, int b){
-        class Calculator {
+        class Calculator { 
             private int num1,num2;
             public Calculator(int num1, int num2) {
                 this.num1 = num1;
