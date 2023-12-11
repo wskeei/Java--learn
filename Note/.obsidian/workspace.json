@@ -11,11 +11,9 @@
             "id": "c829660dcc839059",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "MySQL/MySQL.md",
-                "mode": "source",
-                "source": false
+                "file": "JAVA/总结.excalidraw.md"
               }
             }
           }
@@ -69,7 +67,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "134f48956066ba42",
@@ -85,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MySQL/MySQL.md",
+                "file": "JAVA/总结.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MySQL/MySQL.md",
+                "file": "JAVA/总结.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MySQL/MySQL.md"
+                "file": "JAVA/总结.excalidraw.md"
               }
             }
           }
@@ -150,6 +149,17 @@
   },
   "active": "c829660dcc839059",
   "lastOpenFiles": [
+    "JAVA/集合与泛型/1.集合与泛型.pdf",
+    "MySQL/01/整理.excalidraw.md",
+    "MySQL/01/MySQL数据的增删改查.pdf",
+    "MySQL/01/MySQL常用函数.pdf",
+    "MySQL/01/SQL.md",
+    "MySQL/01/整理.excalidraw.svg",
+    "MySQL/练习.md",
+    "MySQL/实验.md",
+    "MySQL/MySQL.md",
+    "op/第八章 网络实战.md",
+    "op/第二章 用户管理.md",
     "JAVA/总结.excalidraw.md",
     "JAVA/函数式接口和方法引用/2.函数式接口和方法引用.pdf",
     "JAVA/嵌套类/嵌套类.md",
