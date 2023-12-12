@@ -11,9 +11,11 @@
             "id": "437ca32a5641a50d",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Note/JAVA/总结.excalidraw.md"
+                "file": "Note/op/第二章 用户管理.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note/JAVA/总结.excalidraw.md",
+                "file": "Note/op/第二章 用户管理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note/JAVA/总结.excalidraw.md",
+                "file": "Note/op/第二章 用户管理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note/JAVA/总结.excalidraw.md"
+                "file": "Note/op/第二章 用户管理.md"
               }
             }
           }
@@ -143,8 +145,8 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "vscode-editor:新建代码文件": false
+      "vscode-editor:新建代码文件": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
   "floating": {
@@ -179,56 +181,28 @@
         "height": 800,
         "maximize": false,
         "zoom": 0
-      },
-      {
-        "id": "5e46ab6e40217a10",
-        "type": "window",
-        "children": [
-          {
-            "id": "070deb066fcbfc6a",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "cae56a385357f8a0",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "Note/JAVA/集合与泛型/1.集合与泛型.pdf"
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 1280,
-        "y": 0,
-        "width": 1280,
-        "height": 1392,
-        "maximize": false,
-        "zoom": 0
       }
     ]
   },
   "active": "437ca32a5641a50d",
   "lastOpenFiles": [
+    "Note/op/第八章 网络实战.md",
+    "Note/op/第二章 用户管理.md",
     "Note/JAVA/集合与泛型/1.集合与泛型.pdf",
+    "out/production/Java--learn/Test/BookTest.class",
+    "out/production/Java--learn/nested_class/inner_class/LocalClass.class",
+    "out/production/Java--learn/nested_class/inner_class/LocalClass$1Calculator.class",
+    "out/production/Java--learn/nested_class/inner_class/anonymous_class/AnonymousClass.class",
+    "out/production/Java--learn/nested_class/inner_class/anonymous_class/AnonymousClass$3.class",
+    "out/production/Java--learn/nested_class/inner_class/anonymous_class/AnonymousClass$2.class",
+    "out/production/Java--learn/nested_class/inner_class/anonymous_class/AnonymousClass$1.class",
+    "out/production/Java--learn/Method_FunctionalInterface/_static/CalculatorTest.class",
+    "out/production/Java--learn/Colltection/Test.class",
     "Note/JAVA/总结.excalidraw.md",
     "Note/JAVA/异常.md",
     "Note/MySQL/练习.md",
     "Note/JAVA/集合.md",
-    "Java-learn/src/Colltection/collection/GenericLowerLimit.java~",
-    "Java-learn/src/Colltection/collection/MyCollectionTest.java~",
-    "Note/JAVA/函数式接口和方法引用/2.函数式接口和方法引用.pdf",
-    "Note/JAVA/IO流/9.IO流.pdf",
     "Note/MySQL/01/整理.excalidraw.md",
-    "Note/MySQL/01/MySQL数据的增删改查.pdf",
-    "Note/op/第二章 用户管理.md",
-    "Java-learn/src/Colltection/Test.java",
-    "Note/MySQL/01/数据/lesson.sql",
-    "Note/MySQL/01/数据/stu.sql",
-    "Note/MySQL/01/数据/score.sql",
     "Note/MySQL/01/整理.excalidraw.svg",
     "Note/MySQL/01/SQL.md",
     "Note/MySQL/实验.md",
@@ -243,7 +217,6 @@
     "3985563-06052107849a7603.webp",
     "Note/MySQL/01/未命名.canvas",
     "Note/op/第二章 文件操作.md",
-    "Note/op/第八章 网络实战.md",
     "Note/Drawing 2023-12-06 11.33.32.excalidraw.md",
     "Note/op/Linux整理.md",
     "Note/异常.md",
