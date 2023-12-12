@@ -16,7 +16,6 @@ INSERT INTO stu(name, sex, birthday, class) VALUES ('伏鸿远',2,'1993-10-12','
 INSERT INTO stu(name, sex, birthday, class) VALUES ('赫连春蕾',2,'1993-03-15','计科1班');
 INSERT INTO stu(name, sex, birthday, class) VALUES ('柯浩阔',0,'1999-02-24','软工2班');
 INSERT INTO stu(name, sex, birthday, class) VALUES ('钭昆明',1,'1994-05-20','软工2班');
-INSERT INTO stu(name, sex, birthday, class) VALUES ('花凡白',0,'1990-01-00','软工2班');
 INSERT INTO stu(name, sex, birthday, class) VALUES ('臧小玉',0,'1994-11-17','计科1班');
 INSERT INTO stu(name, sex, birthday, class) VALUES ('和金鹏',2,'1994-12-04','计科1班');
 INSERT INTO stu(name, sex, birthday, class) VALUES ('巢浩波',2,'1997-02-25','软工2班');

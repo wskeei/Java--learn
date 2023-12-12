@@ -28,7 +28,7 @@
   "defaultPenMode": "never",
   "allowPinchZoom": false,
   "allowWheelZoom": true,
-  "zoomToFitOnOpen": false,
+  "zoomToFitOnOpen": true,
   "zoomToFitOnResize": true,
   "zoomToFitMaxLevel": 2,
   "linkPrefix": "📍",

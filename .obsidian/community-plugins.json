@@ -1,7 +1,7 @@
 [
-  "vscode-editor",
   "cm-chs-patch",
   "obsidian-excalidraw-plugin",
   "floating-toc",
-  "easy-typing-obsidian"
+  "easy-typing-obsidian",
+  "vscode-editor"
 ]

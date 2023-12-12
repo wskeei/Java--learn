@@ -4,18 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "bed7b95f79828352",
+        "id": "e1bc8a25cf8b9987",
         "type": "tabs",
         "children": [
           {
-            "id": "437ca32a5641a50d",
+            "id": "0931177110496bcc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Note/op/第二章 用户管理.md",
-                "mode": "source",
-                "source": false
+                "file": "Note/JAVA/00 导图.md"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note/op/第二章 用户管理.md",
+                "file": "Note/JAVA/00 导图.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note/op/第二章 用户管理.md",
+                "file": "Note/JAVA/00 导图.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note/op/第二章 用户管理.md"
+                "file": "Note/JAVA/00 导图.md"
               }
             }
           }
@@ -145,8 +143,8 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "vscode-editor:新建代码文件": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "vscode-editor:新建代码文件": false
     }
   },
   "floating": {
@@ -154,20 +152,20 @@
     "type": "floating",
     "children": [
       {
-        "id": "9d87ff94ea8e9b47",
+        "id": "4cc3c54294362188",
         "type": "window",
         "children": [
           {
-            "id": "72abcb5fb93daebf",
+            "id": "e3559625936d2756",
             "type": "tabs",
             "children": [
               {
-                "id": "4ada374eeb314f2b",
+                "id": "41113e9ef1e09a88",
                 "type": "leaf",
                 "state": {
-                  "type": "pdf",
+                  "type": "excalidraw",
                   "state": {
-                    "file": "Note/JAVA/集合与泛型/1.集合与泛型.pdf"
+                    "file": "Note/JAVA/总结.excalidraw.md"
                   }
                 }
               }
@@ -175,40 +173,40 @@
           }
         ],
         "direction": "vertical",
-        "x": 1392,
-        "y": 342,
+        "x": 386,
+        "y": 344,
         "width": 1024,
-        "height": 800,
+        "height": 801,
         "maximize": false,
         "zoom": 0
       }
     ]
   },
-  "active": "437ca32a5641a50d",
+  "active": "0931177110496bcc",
   "lastOpenFiles": [
-    "Note/op/第八章 网络实战.md",
-    "Note/op/第二章 用户管理.md",
-    "Note/JAVA/集合与泛型/1.集合与泛型.pdf",
-    "out/production/Java--learn/Test/BookTest.class",
-    "out/production/Java--learn/nested_class/inner_class/LocalClass.class",
-    "out/production/Java--learn/nested_class/inner_class/LocalClass$1Calculator.class",
-    "out/production/Java--learn/nested_class/inner_class/anonymous_class/AnonymousClass.class",
-    "out/production/Java--learn/nested_class/inner_class/anonymous_class/AnonymousClass$3.class",
-    "out/production/Java--learn/nested_class/inner_class/anonymous_class/AnonymousClass$2.class",
-    "out/production/Java--learn/nested_class/inner_class/anonymous_class/AnonymousClass$1.class",
-    "out/production/Java--learn/Method_FunctionalInterface/_static/CalculatorTest.class",
-    "out/production/Java--learn/Colltection/Test.class",
     "Note/JAVA/总结.excalidraw.md",
-    "Note/JAVA/异常.md",
-    "Note/MySQL/练习.md",
-    "Note/JAVA/集合.md",
-    "Note/MySQL/01/整理.excalidraw.md",
-    "Note/MySQL/01/整理.excalidraw.svg",
-    "Note/MySQL/01/SQL.md",
-    "Note/MySQL/实验.md",
-    "Note/MySQL/MySQL.md",
-    "Note/op/第一章 Linux介绍.md",
     "Note/JAVA/00 导图.md",
+    "Note/JAVA/阶段二/3.封装.pdf",
+    "Note/op/第八章 网络实战.md",
+    "Note/JAVA/阶段二",
+    "Note/JAVA/集合与泛型/1.集合与泛型.pdf",
+    "Java-learn/src/Test/StaticTest.java~",
+    "out/production/Java--learn/Test/Static.class",
+    "out/production/Java--learn/Test/StaticTest.class",
+    "out/production/Java--learn/Colltection/list/DeNodeTest.class",
+    "Java-learn/src/Test/StaticTest.java",
+    "Java-learn/src/Test/Static.java",
+    "Java-learn/src/Colltection/list/DeNodeTest.java~",
+    "Note/MySQL/01/整理.excalidraw.md",
+    "Note/MySQL/实验.md",
+    "Note/MySQL/练习.md",
+    "Note/MySQL/01/SQL.md",
+    "Note/MySQL/MySQL.md",
+    "Note/op/第二章 用户管理.md",
+    "Note/JAVA/异常.md",
+    "Note/JAVA/集合.md",
+    "Note/MySQL/01/整理.excalidraw.svg",
+    "Note/op/第一章 Linux介绍.md",
     "Note/JAVA/嵌套类/嵌套类.md",
     "Note/JAVA/IO流/编写.md",
     "Note/MySQL/01/DQL.md",
