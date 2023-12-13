@@ -22,7 +22,7 @@ public class MyMap<K,V> {
             MyEntry<K,V>[] entries = new MyEntry[currentSize<<1];
             for(MyEntry<K,V> entry: entries){
                 int hash = entry.getKey().hashCode();
-                int index = hash & (entries.length - 1);
+                int index = hash & (entries.length - 1); //按位运算 按位操作符
                 entries[index] = entry;
             }
             elements = entries;
@@ -45,7 +45,7 @@ public class MyMap<K,V> {
 
     public V get(K key){
         for(MyEntry<K,V> entry: elements){
-            if(entry == null) continue;
+            if(entry == null) continue; //存放不是连续的
             K k = entry.getKey();
             if(k.equals(key)) return entry.getValue();
             MyEntry<K, V> temp =entry.getNext();

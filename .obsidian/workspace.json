@@ -11,9 +11,9 @@
             "id": "0931177110496bcc",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "pdf",
               "state": {
-                "file": "Note/JAVA/00 导图.md"
+                "file": "Note/JAVA/函数式接口和方法引用/2.函数式接口和方法引用.pdf"
               }
             }
           }
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note/JAVA/00 导图.md",
+                "file": "Note/JAVA/函数式接口和方法引用/2.函数式接口和方法引用.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note/JAVA/00 导图.md",
+                "file": "Note/JAVA/函数式接口和方法引用/2.函数式接口和方法引用.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note/JAVA/00 导图.md"
+                "file": "Note/JAVA/函数式接口和方法引用/2.函数式接口和方法引用.pdf"
               }
             }
           }
@@ -177,7 +177,7 @@
         "y": 344,
         "width": 1024,
         "height": 801,
-        "maximize": false,
+        "maximize": true,
         "zoom": 0
       }
     ]
@@ -185,6 +185,8 @@
   "active": "0931177110496bcc",
   "lastOpenFiles": [
     "Note/JAVA/总结.excalidraw.md",
+    "Java-learn/src/Colltection/map/MyMap.java~",
+    "Note/JAVA/函数式接口和方法引用/2.函数式接口和方法引用.pdf",
     "Note/JAVA/00 导图.md",
     "Note/JAVA/阶段二/3.封装.pdf",
     "Note/op/第八章 网络实战.md",
@@ -195,8 +197,6 @@
     "out/production/Java--learn/Test/StaticTest.class",
     "out/production/Java--learn/Colltection/list/DeNodeTest.class",
     "Java-learn/src/Test/StaticTest.java",
-    "Java-learn/src/Test/Static.java",
-    "Java-learn/src/Colltection/list/DeNodeTest.java~",
     "Note/MySQL/01/整理.excalidraw.md",
     "Note/MySQL/实验.md",
     "Note/MySQL/练习.md",

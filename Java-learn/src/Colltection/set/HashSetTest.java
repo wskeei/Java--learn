@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Iterator;
 
 public class HashSetTest {
-
+//底层是map
     public static void main(String[] args) {
         HashSet<String> set = new HashSet<>();
         set.add("a");

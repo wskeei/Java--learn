@@ -6,7 +6,7 @@ import java.util.Set;
 import java.util.TreeMap;
 
 public class TreeMapTest {
-
+//TreeMap要提供排序规则，使用内排序或者外排序
     public static void main(String[] args) {
 //        TreeMap<Computer, Integer> map = new TreeMap<>();
 //        map.put(new Computer("联想", 3000), 1);
