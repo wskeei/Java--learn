@@ -1,0 +1,4 @@
+hello,hadoop
+scala,is,a,spark,langua
+hado0p,hdfs,map,reduce
+map,hello,is,spark
