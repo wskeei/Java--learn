@@ -8,14 +8,8 @@ import java.io.IOException;
 import java.util.HashSet;
 import java.util.Set;
 
-public class RemoveDuplicateWords {
+public class NewRDW {
     public static void main(String[] args) {
-<<<<<<< HEAD
-        String inputFilePath = "D:\\Document\\test.txt"; // 输入文本文件路径
-        String outputFilePath = "D:\\Document\\output.txt"; // 输出文本文件路径
-
-        try {
-=======
         String inputFilePath = "input.txt"; // 输入文本文件路径
         String outputFilePath = "output.txt"; // 输出文本文件路径
         String baseWordsFilePath = "base_words.txt"; // 基础单词文本文件路径
@@ -24,7 +18,6 @@ public class RemoveDuplicateWords {
             // 读取基础单词文本文件
             Set<String> baseWords = readBaseWords(baseWordsFilePath);
 
->>>>>>> origin/master
             // 读取输入文本文件
             BufferedReader reader = new BufferedReader(new FileReader(inputFilePath));
 
@@ -36,13 +29,8 @@ public class RemoveDuplicateWords {
             while ((line = reader.readLine()) != null) {
                 String[] words = line.split("[\\p{Punct}\\s]+"); // 使用正则表达式分割单词
                 for (String word : words) {
-<<<<<<< HEAD
-                    // 检查单词是否为纯字母且长度大于1
-                    if (word.matches("[a-zA-Z]+") && word.length() > 1) {
-=======
                     // 检查单词是否为纯字母、长度大于1且不在基础单词集合中
                     if (word.matches("[a-zA-Z]+") && word.length() > 1 && !baseWords.contains(word.toLowerCase())) {
->>>>>>> origin/master
                         uniqueWords.add(word.toLowerCase()); // 将单词转换为小写并添加到Set中
                     }
                 }
@@ -66,8 +54,6 @@ public class RemoveDuplicateWords {
             e.printStackTrace();
         }
     }
-<<<<<<< HEAD
-=======
 
     private static Set<String> readBaseWords(String filePath) throws IOException {
         Set<String> baseWords = new HashSet<>();
@@ -81,5 +67,4 @@ public class RemoveDuplicateWords {
         reader.close();
         return baseWords;
     }
->>>>>>> origin/master
 }
