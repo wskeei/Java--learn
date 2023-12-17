@@ -35,7 +35,7 @@ public class SaleThreadTest {
         public void run() {
             while (true){
 //                saleTicket();
-                synchronized (o){
+                synchronized (o){ //this
                     if(totalTickets > 0){
                         String name = Thread.currentThread().getName();
                         System.out.println(name + "售卖火车票：" + totalTickets);

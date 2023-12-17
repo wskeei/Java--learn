@@ -25,7 +25,8 @@ public class LockDemo {
         public void run() {
             while (true){
                 //尝试获得锁
-                if(lock.tryLock()){
+                if(lock.tryLock()){ //与synchronized相比，不会出现阻塞，拿不到琐就拿不到，直接跳过这一段，去下面睡觉
+                    //而且性能更优
                     try {
                         if(totalTickets > 0){
                             String name = Thread.currentThread().getName();
