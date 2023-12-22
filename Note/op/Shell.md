@@ -2,9 +2,29 @@
 
 ## 第一关
 ```shell
-# 将输入参数存储在数组中 args=("$@") 
-# 遍历数组并输出每个参数 
-for ((i=0; i<${#args[@]}; i++)); do echo "$((i+1)) ${args[i]}" done
+#!/bin/bash
+
+  
+
+#### Begin
+
+count=1 # 计数变量
+
+while [ -n "$1" ] # 长度测试，确认是否还有参数
+
+do
+
+echo $count $1 # 输出编号、参数值
+
+count=$[$count+1]
+
+shift
+
+done
+
+  
+
+#### End
 ```
 
 ## 第二关
@@ -212,49 +232,71 @@ done
 ```
 #!/bin/bash
 
+  
+
 # finding files in the dir
+
+  
 
   
 
 ##1.修改当前shell的分割符为 :
 
+  
+
 IFS=:
+
+  
 
   
 
 # 设置 $dir 为包含特定文件的目录
 
+  
+
 dir="/usr/games"
 
   
 
-##########  Begin  ##########
+  
+
+########## &nbsp;Begin &nbsp;##########
+
+  
 
   
 
 ##2.第一个for循环,遍历$dir ,根据IFS=:指定的":"分割符隔开遍历。
 
+  
+
 for folder in $dir; do
 
   
 
-    ##3.第二个for循环,遍历取值的变量$folder下的文件。
+  
 
-    for file in "$folder"/*; do
+##3.第二个for循环,遍历取值的变量$folder下的文件。
 
   
 
-        ##4.if语句判断是否具有执行权限。
-
-        if [ -x "$file" ]; then
-
-            echo "Executable file found: $file"
-
-        fi
+for file in "$folder"/*; do
 
   
 
-    done
+##4.if语句判断是否具有执行权限。
+
+  
+
+if [ -x "$file" ]; then
+
+  
+
+echo "Executable file found: $file"
+
+  
+
+fi
 
   
 
@@ -262,7 +304,15 @@ done
 
   
 
-######### End   #########
+  
+
+done
+
+  
+
+  
+
+######### End &nbsp; #########
 ```
 
 # 内置命令
