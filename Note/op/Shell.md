@@ -8,7 +8,119 @@ for ((i=0; i<${#args[@]}; i++)); do echo "$((i+1)) ${args[i]}" done
 ```
 
 ## 第二关
-TODO
+```
+#!/bin/bash
+
+export LANG=zh-CN.utf-8
+
+poems=()
+
+poems[0]='东风夜放花千树'
+
+poems[1]='昨夜星辰昨夜风'
+
+poems[2]='小楼一夜听春雨'
+
+poems[3]='十年生死两茫茫'
+
+poems[4]='相见时难别亦难'
+
+poems[5]='草枯鹰眼疾'
+
+poems[6]='山雨欲来风满楼'
+
+poems[7]='与君生别离'
+
+poems[8]='山有木兮木有枝'
+
+poems[9]='菩提本无树'
+
+poems[10]='生子当如孙仲谋'
+
+poems[11]='自是人生长恨水常东'
+
+poems[12]='天下归心'
+
+poems[13]='万里长江横渡'
+
+poems[14]='欲将心事付瑶琴'
+
+poems[15]='君不见高堂明镜悲白发'
+
+  
+
+########## Begin ##########
+
+res=({0..15})
+
+  
+
+while getopts "a:b:" opt
+
+do
+
+    case "$opt" in
+
+        a)
+
+            tmp=()
+
+            cnt=0
+
+            for index in "${res[@]}"; do
+
+                if [ "${#poems[$index]}" -eq "$OPTARG" ]; then
+
+                    tmp+=("$index")
+
+                    cnt=$((cnt+1))
+
+                fi
+
+            done
+
+            res=("${tmp[@]}")
+
+            ;;
+
+        b)
+
+            tmp=()
+
+            cnt=0
+
+            for index in "${res[@]}"; do
+
+                if [[ "${poems[$index]}" == *"$OPTARG"* ]]; then
+
+                    tmp+=("$index")
+
+                    cnt=$((cnt+1))
+
+                fi
+
+            done
+
+            res=("${tmp[@]}")
+
+            ;;
+
+    esac
+
+done
+
+  
+
+for index in "${res[@]}"; do
+
+    echo "${poems[$index]}"
+
+done
+
+  
+
+########## End ##########
+```
 
 # 管道重定向
 ```
@@ -97,7 +209,61 @@ done
 ## 第五关
 
 ## 第六关
-TODO
+```
+#!/bin/bash
+
+# finding files in the dir
+
+  
+
+##1.修改当前shell的分割符为 :
+
+IFS=:
+
+  
+
+# 设置 $dir 为包含特定文件的目录
+
+dir="/usr/games"
+
+  
+
+##########  Begin  ##########
+
+  
+
+##2.第一个for循环,遍历$dir ,根据IFS=:指定的":"分割符隔开遍历。
+
+for folder in $dir; do
+
+  
+
+    ##3.第二个for循环,遍历取值的变量$folder下的文件。
+
+    for file in "$folder"/*; do
+
+  
+
+        ##4.if语句判断是否具有执行权限。
+
+        if [ -x "$file" ]; then
+
+            echo "Executable file found: $file"
+
+        fi
+
+  
+
+    done
+
+  
+
+done
+
+  
+
+######### End   #########
+```
 
 # 内置命令
 ## 第二关

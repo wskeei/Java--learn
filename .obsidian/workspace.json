@@ -11,10 +11,8 @@
             "id": "0931177110496bcc",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Note/JAVA/4.多线程.pdf"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -67,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "d31aef8c91281e20",
@@ -84,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note/JAVA/4.多线程.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note/JAVA/4.多线程.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,17 +119,15 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note/JAVA/4.多线程.pdf"
+                "file": "Note/Drawing 2023-12-20 00.23.51.excalidraw.md"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -148,10 +141,14 @@
       "vscode-editor:新建代码文件": false
     }
   },
-  "active": "0931177110496bcc",
+  "active": "b5b18042d5250b0d",
   "lastOpenFiles": [
-    "Note/JAVA/总结.excalidraw.md",
+    "Note/op/Linux环境下编程与调试.md",
+    "Note/op/Shell.md",
+    "Note/Drawing 2023-12-20 00.23.51.excalidraw.md",
+    "Note/op/实验.md",
     "Note/JAVA/4.多线程.pdf",
+    "Note/JAVA/总结.excalidraw.md",
     "out/production/Java--learn/Thread/SaleThreadTest.class",
     "out/production/Java--learn/Thread/SaleThreadTest$SaleTask.class",
     "out/production/Java--learn/Thread/pool/ThreadPoolTest.class",
@@ -191,9 +188,6 @@
     "Note/Drawing 2023-12-06 11.33.32.excalidraw.md",
     "Note/op/Linux整理.md",
     "Note/异常.md",
-    "op/实验.md",
-    "Note/MySQL.md",
-    "Note/E2.md",
-    "Note/嵌套类/嵌套类.md"
+    "op/实验.md"
   ]
 }
