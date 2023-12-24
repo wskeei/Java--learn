@@ -1,17 +1,18 @@
-package Test.E8;
+package ZE.E8;
 
-public class ConsumerB implements Runnable {
+public class ProducerA  implements Runnable {
     private final Warehouse warehouse;
 
-    public ConsumerB(Warehouse warehouse) {
+    public ProducerA(Warehouse warehouse) {
         this.warehouse = warehouse;
     }
+
 
     @Override
     public void run() {
         while (true) {
             try {
-                warehouse.consume(10);
+                warehouse.produce(20);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }

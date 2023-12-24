@@ -1,8 +1,4 @@
-package Test.E8;
-
-import java.util.concurrent.locks.Condition;
-import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.ReentrantLock;
+package ZE.E8;
 
 public class ProducerConsumerExample {
     public static void main(String[] args) {
