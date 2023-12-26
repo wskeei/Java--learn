@@ -1,4 +1,4 @@
-package E5;
+package ZE.E5;
 
 public class Bird extends Animal implements Flyable{
     public Bird(String name, int age) {

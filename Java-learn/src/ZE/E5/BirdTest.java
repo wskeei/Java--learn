@@ -1,4 +1,4 @@
-package E5;
+package ZE.E5;
 
 public class BirdTest {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package E5;
+package ZE.E5;
 
 public abstract class Animal {
     private String name;

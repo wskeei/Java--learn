@@ -1,4 +1,4 @@
-package E6;
+package ZE.E6;
 
 public class EmptyException extends Exception{
     public EmptyException(String message) {

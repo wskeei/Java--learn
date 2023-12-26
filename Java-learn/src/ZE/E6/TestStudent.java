@@ -1,4 +1,4 @@
-package E6;
+package ZE.E6;
 
 public class TestStudent {
     public static void main(String[] args) {

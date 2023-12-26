@@ -1,0 +1,1 @@
+# Within weeks for arriving a forgin country ,people often fell stress out or a kind of confused ,so be perpared of emotional stress

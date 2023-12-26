@@ -1,4 +1,4 @@
-package E6;
+package ZE.E6;
 
 public class AgeHighException extends Exception{
     public AgeHighException(String message) {
