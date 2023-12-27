@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "7628db926666a687",
+        "id": "deb3809533fdfae7",
         "type": "tabs",
         "children": [
           {
-            "id": "c829660dcc839059",
+            "id": "7171f22dad6fc239",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "op/Shell.md",
-                "mode": "preview",
+                "file": "JAVA/期末.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 276.5,
+    "collapsed": true
   },
   "right": {
     "id": "134f48956066ba42",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "op/Shell.md",
+                "file": "JAVA/期末.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "op/Shell.md",
+                "file": "JAVA/期末.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "op/Shell.md"
+                "file": "JAVA/期末.md"
               }
             }
           }
@@ -148,32 +149,44 @@
       "vscode-editor:新建代码文件": false
     }
   },
-  "active": "c829660dcc839059",
+  "active": "7171f22dad6fc239",
   "lastOpenFiles": [
+    "JAVA/集合与泛型/JavaSE 基础内容 - JavaSE 笔记（五）泛型程序设计.md",
+    "JAVA/集合与泛型/1.集合与泛型.pdf",
+    "JAVA/期末.md",
+    "未命名 1.md",
+    "未命名.md",
+    "JAVA/实训项目/登录界面修改.md",
+    "JAVA/Spring.md",
+    "MySQL/数据库实验/数据库实验报告1-6阶段.docx",
+    "MySQL/数据库实验/数据库实验1-2.docx",
+    "MySQL/数据库实验/实验四内容附参考答案.docx",
+    "MySQL/数据库实验/实验五-存储过程与函数的创建管理实验.docx",
+    "MySQL/数据库实验/2023.11.28-数据库实验1-3.docx",
+    "MySQL/数据库实验",
+    "JAVA/实训项目/更新功能.md",
+    "JAVA/实训项目/Drawing 2023-12-25 18.58.14.excalidraw.md",
+    "JAVA/实训项目/1.jpg",
+    "JAVA/实训项目",
+    "E.md",
+    "MySQL/01/01 初识MySQL.pdf",
+    "MySQL/01/02 MySQL数据的增删改查.pdf",
+    "MySQL/MySQL.md",
+    "MySQL/实验.md",
+    "MySQL/练习.md",
     "op/Linux环境下编程与调试.md",
-    "op/C.md",
     "op/Shell.md",
+    "op/C.md",
     "op/实验.md",
     "op/第一章 Linux介绍.md",
-    "JAVA/阶段二/11.多态项目.pdf",
     "JAVA/阶段二/00 导图.md",
     "JAVA/总结.excalidraw.md",
-    "JAVA/未命名.md",
     "JAVA/集合.md",
     "JAVA/异常.md",
-    "JAVA/IO流/9.IO流.pdf",
-    "JAVA/集合与泛型/1.集合与泛型.pdf",
     "MySQL/01/整理.excalidraw.md",
-    "MySQL/01/MySQL数据的增删改查.pdf",
-    "MySQL/01/MySQL常用函数.pdf",
     "MySQL/01/SQL.md",
     "MySQL/01/整理.excalidraw.svg",
-    "MySQL/练习.md",
-    "MySQL/实验.md",
-    "MySQL/MySQL.md",
     "op/第八章 网络实战.md",
-    "op/第二章 用户管理.md",
-    "JAVA/函数式接口和方法引用/2.函数式接口和方法引用.pdf",
-    "JAVA/嵌套类/嵌套类.md"
+    "op/第二章 用户管理.md"
   ]
 }
