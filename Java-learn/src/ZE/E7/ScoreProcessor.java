@@ -6,17 +6,14 @@ public class ScoreProcessor {
     public static void main(String[] args) {
         // 文件路径
         String inputFile = "";//score路径
-        String CountFile = "";//总分大于260的
-        String avgFile =  "";//平均分
-        String CFile =  "";//总分
+        String OutFile = "";//总分大于260的 平均分 总分
+
 
         try (
                 // 创建文件读取流
                 BufferedReader reader = new BufferedReader(new FileReader(inputFile));
                 // 创建文件写入流
-                BufferedWriter writer = new BufferedWriter(new FileWriter(CountFile));
-                BufferedWriter writer1 = new BufferedWriter(new FileWriter(avgFile));
-                BufferedWriter writer2 = new BufferedWriter(new FileWriter(CFile))
+                BufferedWriter writer = new BufferedWriter(new FileWriter(OutFile));
         ) {
             // 统计总分大于240分的人数
             int count = 0;
@@ -36,9 +33,8 @@ public class ScoreProcessor {
                 System.out.println("学号：" + studentId + "平均分" + avgscore);
                 System.out.println("学号：" + studentId + "总分" + totalScore);
 
-                writer1.write("学号：" + studentId + "，平均分:" + avgscore);
-                writer1.write("学号：" + studentId + "，总分:" + totalScore);
-
+                writer.write("学号：" + studentId + "，平均分:" + avgscore);
+                writer.write("学号：" + studentId + "，总分:" + totalScore);
 
                 // 判断总分是否大于260
                 if (totalScore > 260) {
